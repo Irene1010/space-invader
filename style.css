@@ -1,0 +1,37 @@
+.grid{
+  height: 600px;
+  width: 600px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div{
+  height: 40px;
+  width: 40px;
+}
+
+.invaders{
+  /*background-color: lemonchiffon;*/
+  background-image: url(invader.png);
+  background-size: cover;
+  /*border-radius: 10px;*/
+}
+
+.me{
+  /*background-color: mediumpurple;*/
+  background-image: url(me.png);
+  background-size: cover;
+}
+
+.boom{
+  /*background-color: crimson;*/
+  background-image: url(boom.png);
+  background-size: cover;
+}
+
+.laser{
+  /*background-color: deepskyblue;*/
+  background-image: url(laser.png);
+  background-size: cover;
+}
